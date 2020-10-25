@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "goty-98f92": {
+      "hosting": {
+        "goty": [
+          "goty-98f92"
+        ]
+      }
+    }
+  }
+}

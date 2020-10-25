@@ -1,0 +1,21 @@
+<!-- (activate)="onActivate($event)" 
+(deactivate)="onDeactivate($event)" -->
+
+<div class="chart-container">
+  <ngx-charts-bar-horizontal
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="votaciones"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    (select)="onSelect($event)"
+    style="fill:lightgray">
+  </ngx-charts-bar-horizontal>  
+
+</div>
